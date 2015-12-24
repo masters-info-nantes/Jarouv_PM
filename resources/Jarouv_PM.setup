@@ -66,7 +66,7 @@
   <setupTask
       xsi:type="git:GitCloneTask"
       id="git.clone"
-      remoteURI="masters-info-nantes/GitLearning">
+      remoteURI="masters-info-nantes/Jarouv_PM">
     <annotation
         source="http://www.eclipse.org/oomph/setup/InducedChoices">
       <detail
@@ -101,7 +101,7 @@
             pattern="fr.univnantes.alma.server"/>
         <operand
             xsi:type="predicates:RepositoryPredicate"
-            project="GitLearning"/>
+            project="Jarouv_PM"/>
       </predicate>
     </workingSet>
     <description>The dynamic working sets for ${scope.project.label}</description>
