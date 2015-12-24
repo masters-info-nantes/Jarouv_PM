@@ -97,9 +97,12 @@
             xsi:type="predicates:NamePredicate"
             pattern="fr.univnantes.alma.resources"/>
         <operand
+<<<<<<< HEAD:resources/Jarouv_PM.setup
             xsi:type="predicates:NamePredicate"
             pattern="fr.univnantes.alma.server"/>
         <operand
+=======
+>>>>>>> upstream/master:resources/JarouvPM.setup
             xsi:type="predicates:RepositoryPredicate"
             project="Jarouv_PM"/>
       </predicate>
@@ -114,8 +117,13 @@
     <sourceLocator
         rootFolder="${git.clone.location}/resources/fr.univnantes.alma.oomph"/>
     <sourceLocator
+<<<<<<< HEAD:resources/Jarouv_PM.setup
         rootFolder="${git.clone.location}/bundles/fr.univnantes.alma.server"/>
     <description></description>
+=======
+        rootFolder="${git.clone.location}/resources/fr.univnantes.alma.resources"/>
+    <description>Import projects</description>
+>>>>>>> upstream/master:resources/JarouvPM.setup
   </setupTask>
   <stream name="master"
       label="Master"/>
